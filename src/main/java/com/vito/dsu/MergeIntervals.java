@@ -1,7 +1,6 @@
 package com.vito.dsu;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * Given an array of intervals where intervals[i] = [starti, endi],
