@@ -18,6 +18,7 @@ public class LongestSubstrWithoutRepeatingChars {
             chars.put(underlying.charAt(0), 1);
         }
 
+        // TODO do not recalc on every step
         public int repeatingChars() {
             return (int) chars.entrySet().stream().filter(en -> en.getValue() >= 2).count();
         }
