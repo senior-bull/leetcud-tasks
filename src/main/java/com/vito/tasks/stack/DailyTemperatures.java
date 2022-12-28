@@ -1,4 +1,4 @@
-package com.vito.med;
+package com.vito.tasks.med.stack;
 
 import java.util.Stack;
 

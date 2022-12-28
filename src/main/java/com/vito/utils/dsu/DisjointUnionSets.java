@@ -1,4 +1,4 @@
-package com.vito.dsu;
+package com.vito.algos.dsu;
 
 import java.util.ArrayList;
 import java.util.HashMap;
