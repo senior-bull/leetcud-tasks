@@ -1,4 +1,4 @@
-package com.vito.tasks.med;
+package com.vito.tasks.merge;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;

@@ -1,6 +1,8 @@
-package com.vito.algos.dsu;
+package com.vito.tasks.dsu;
 
 import java.util.*;
+
+import com.vito.utils.dsu.DisjointUnionSets;
 
 /**
  * Given an array of intervals where intervals[i] = [starti, endi],

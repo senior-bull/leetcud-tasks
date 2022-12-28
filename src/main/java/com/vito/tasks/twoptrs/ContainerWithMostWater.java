@@ -1,4 +1,4 @@
-package com.vito.tasks.med;
+package com.vito.tasks.twoptrs;
 
 public class ContainerWithMostWater {
 

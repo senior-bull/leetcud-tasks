@@ -1,4 +1,4 @@
-package com.vito.eeasy;
+package com.vito.tasks.eeasy;
 
 public class LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {

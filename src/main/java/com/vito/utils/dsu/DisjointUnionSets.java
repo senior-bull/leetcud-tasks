@@ -1,4 +1,4 @@
-package com.vito.algos.dsu;
+package com.vito.utils.dsu;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -17,7 +17,7 @@ public class DisjointUnionSets<T>  implements Iterable<DisjointUnionSets<T>.DsuS
         this.parent = new HashMap<>();
     }
 
-    void add(T item) {
+    public void add(T item) {
         treeSize.put(item, 0);
         parent.put(item, item);
     }
@@ -30,7 +30,7 @@ public class DisjointUnionSets<T>  implements Iterable<DisjointUnionSets<T>.DsuS
         return parent.get(item);
     }
 
-    void union(T x, T y) {
+    public void union(T x, T y) {
         T xRoot = find(x), yRoot = find(y);
 
         if (xRoot == yRoot)

@@ -1,4 +1,4 @@
-package com.vito.tasks.eeasy.window;
+package com.vito.tasks.window;
 
 import java.util.HashMap;
 import java.util.Map;
